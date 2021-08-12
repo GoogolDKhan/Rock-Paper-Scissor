@@ -30,7 +30,7 @@ elif RNum == 2:
 elif RNum == 3:
     comp = 'Scissor'
 
-PTurn = input("Player Turn : Rock Paper Scissor ")
+PTurn = input("Player Turn : Rock Paper Scissor? ")
 if PTurn == 'R':
     you = 'Rock'
 elif PTurn == 'P':
@@ -38,14 +38,14 @@ elif PTurn == 'P':
 elif PTurn == 'S':
     you = 'Scissor'
 
-a = GameWin(comp, you)
+result = GameWin(comp, you)
 
 print(f"Computer chose {comp}")
 print(f"Player chose {you}")
 
-if a == None:
-    print("The game is tie")
-elif a == True:
+if result == None:
+    print("The game is a tie")
+elif result == True:
     print("The game is won")
-elif a == False:
+elif result == False:
     print("The game is lost")
