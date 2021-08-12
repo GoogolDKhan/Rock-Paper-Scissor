@@ -21,6 +21,6 @@ The Rules are as - __*YOU VS COMPUTER*__
 
 ## Author
 
-- [@Sarfaraz Khan](https://github.com/GoogolDKhan)
+- [@Sarfaraz](https://github.com/GoogolDKhan)
 
   
