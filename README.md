@@ -23,4 +23,4 @@ The Rules are as - __*YOU VS COMPUTER*__
 
 - [@Sarfaraz](https://github.com/GoogolDKhan)
 
-  
+- Dated : 27-04-2021
