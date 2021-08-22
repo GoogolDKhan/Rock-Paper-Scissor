@@ -1,51 +1,51 @@
 import random
 
 # Function to evaluate the winner of the game
-def GameWin(comp, you):
-    if comp == you:
+def game_win(computer, user):
+    if computer == user:
         return None
-    elif comp == "Rock":
-        if you == "Paper":
+    elif computer == "Rock":
+        if user == "Paper":
             return True
-        elif you == "Scissor":
+        elif user == "Scissor":
             return False
-    elif comp == "Paper":
-        if you == "Scissor":
+    elif computer == "Paper":
+        if user == "Scissor":
             return True
-        elif you == "Rock":
+        elif user == "Rock":
             return False
-    elif comp == "Scissor":
-        if you == "Rock":
+    elif computer == "Scissor":
+        if user == "Rock":
             return True
-        elif you == "Paper":
+        elif user == "Paper":
             return False
 
 
 # Determining the computer choice
 print("Use Capital R for Rock, P for Paper, S for Scissor")
-RNum = random.randint(1, 3)
-if RNum == 1:
-    comp = "Rock"
-elif RNum == 2:
-    comp = "Paper"
-elif RNum == 3:
-    comp = "Scissor"
+randum_number = random.randint(1, 3)
+if randum_number == 1:
+    computer = "Rock"
+elif randum_number == 2:
+    computer = "Paper"
+elif randum_number == 3:
+    computer = "Scissor"
 
 # Selection of the user choice
-PTurn = input("Player Turn : Rock Paper Scissor? ")
-if PTurn == "R":
-    you = "Rock"
-elif PTurn == "P":
-    you = "Paper"
-elif PTurn == "S":
-    you = "Scissor"
+player_turn = input("Player Turn : Rock Paper Scissor? ")
+if player_turn == "R":
+    user = "Rock"
+elif player_turn == "P":
+    user = "Paper"
+elif player_turn == "S":
+    user = "Scissor"
 
 # Calling the evaluation function
-result = GameWin(comp, you)
+result = game_win(computer, user)
 
 # Priting the results
-print(f"Computer chose {comp}")
-print(f"Player chose {you}")
+print(f"Computer chose {computer}")
+print(f"Player chose {user}")
 if result == None:
     print("The game is a tie")
 elif result == True:
