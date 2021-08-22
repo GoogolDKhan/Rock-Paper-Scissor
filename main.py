@@ -1,6 +1,6 @@
 import random
 
-
+# Function to evaluate the winner of the game
 def GameWin(comp, you):
     if comp == you:
         return None
@@ -21,6 +21,7 @@ def GameWin(comp, you):
             return False
 
 
+# Determining the computer choice
 print("Use Capital R for Rock, P for Paper, S for Scissor")
 RNum = random.randint(1, 3)
 if RNum == 1:
@@ -30,6 +31,7 @@ elif RNum == 2:
 elif RNum == 3:
     comp = 'Scissor'
 
+# Selection of the user choice
 PTurn = input("Player Turn : Rock Paper Scissor? ")
 if PTurn == 'R':
     you = 'Rock'
@@ -38,11 +40,12 @@ elif PTurn == 'P':
 elif PTurn == 'S':
     you = 'Scissor'
 
+# Calling the evaluation function
 result = GameWin(comp, you)
 
+# Priting the results
 print(f"Computer chose {comp}")
 print(f"Player chose {you}")
-
 if result == None:
     print("The game is a tie")
 elif result == True:
