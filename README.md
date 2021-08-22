@@ -21,6 +21,6 @@ The Rules are as - __*YOU VS COMPUTER*__
 
 ## Author
 
-- [@Sarfaraz](https://github.com/GoogolDKhan)
+- This project is inspired by [CodeWithHarry](https://youtu.be/gfDE2a7MKjA)
 
 - Dated : 27-04-2021
