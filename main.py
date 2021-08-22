@@ -4,20 +4,20 @@ import random
 def GameWin(comp, you):
     if comp == you:
         return None
-    elif comp == 'Rock':
-        if you == 'Paper':
+    elif comp == "Rock":
+        if you == "Paper":
             return True
-        elif you == 'Scissor':
+        elif you == "Scissor":
             return False
-    elif comp == 'Paper':
-        if you == 'Scissor':
+    elif comp == "Paper":
+        if you == "Scissor":
             return True
-        elif you == 'Rock':
+        elif you == "Rock":
             return False
-    elif comp == 'Scissor':
-        if you == 'Rock':
+    elif comp == "Scissor":
+        if you == "Rock":
             return True
-        elif you == 'Paper':
+        elif you == "Paper":
             return False
 
 
@@ -25,20 +25,20 @@ def GameWin(comp, you):
 print("Use Capital R for Rock, P for Paper, S for Scissor")
 RNum = random.randint(1, 3)
 if RNum == 1:
-    comp = 'Rock'
+    comp = "Rock"
 elif RNum == 2:
-    comp = 'Paper'
+    comp = "Paper"
 elif RNum == 3:
-    comp = 'Scissor'
+    comp = "Scissor"
 
 # Selection of the user choice
 PTurn = input("Player Turn : Rock Paper Scissor? ")
-if PTurn == 'R':
-    you = 'Rock'
-elif PTurn == 'P':
-    you = 'Paper'
-elif PTurn == 'S':
-    you = 'Scissor'
+if PTurn == "R":
+    you = "Rock"
+elif PTurn == "P":
+    you = "Paper"
+elif PTurn == "S":
+    you = "Scissor"
 
 # Calling the evaluation function
 result = GameWin(comp, you)
