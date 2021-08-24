@@ -21,6 +21,6 @@ The Rules are as - __*YOU VS COMPUTER*__
 
 ## Author
 
-- This project is inspired by [CodeWithHarry](https://youtu.be/gfDE2a7MKjA)
+- This mini project is inspired by [CodeWithHarry](https://youtu.be/gfDE2a7MKjA)
 
 - Dated : 27-04-2021
