@@ -1,5 +1,4 @@
-
-# Rock-Paper-Scissor: Game Using Python
+# Rock-Paper-Scissor: Game Using Python [![CodeFactor](https://www.codefactor.io/repository/github/googoldkhan/rock-paper-scissor/badge)](https://www.codefactor.io/repository/github/googoldkhan/rock-paper-scissor)
 
 ## How this game work
 
