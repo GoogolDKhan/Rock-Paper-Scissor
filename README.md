@@ -1,4 +1,5 @@
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0cdbab490a714b23ba7b6877a57d223b)](https://app.codacy.com/gh/GoogolDKhan/Rock-Paper-Scissor?utm_source=github.com&utm_medium=referral&utm_content=GoogolDKhan/Rock-Paper-Scissor&utm_campaign=Badge_Grade_Settings)
 # Rock-Paper-Scissor: Game Using Python [![CodeFactor](https://www.codefactor.io/repository/github/googoldkhan/rock-paper-scissor/badge)](https://www.codefactor.io/repository/github/googoldkhan/rock-paper-scissor)
 
 ## How this game work
