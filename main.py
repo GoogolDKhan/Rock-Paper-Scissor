@@ -7,18 +7,15 @@ def game_win(computer, user):
     elif computer == "Rock":
         if user == "Paper":
             return True
-        elif user == "Scissor":
-            return False
+        return False
     elif computer == "Paper":
         if user == "Scissor":
             return True
-        elif user == "Rock":
-            return False
+        return False
     elif computer == "Scissor":
         if user == "Rock":
             return True
-        elif user == "Paper":
-            return False
+        return False
 
 
 # Determining the computer choice
@@ -46,9 +43,9 @@ result = game_win(computer, user)
 # Priting the results
 print(f"Computer chose {computer}")
 print(f"Player chose {user}")
-if result == None:
+if result is None:
     print("The game is a tie")
-elif result == True:
+elif result is True:
     print("The game is won")
-elif result == False:
+elif result is False:
     print("The game is lost")
